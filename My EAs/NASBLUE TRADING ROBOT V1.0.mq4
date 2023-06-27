@@ -1,11 +1,11 @@
 //+----------------------------------------------------------------------+
-//|                                     Supply Demand Leveler Trader.mq4 |
-//|                                                         David J. Lin |
+//|                                      NASBLUE TRADING ROBOT V1.0 .mq4 |
+//|                                                           Lutendo fx |
 //|Based on a Supply & Demand trading strategy                           |
-//|Coded by David J. Lin (dave.j.lin@sbcglobal.net)                      |
-//|Evanston, IL, July 15, 2008                                           |
+//|Coded by Lutendo fx (lutendomawelewele6@gmail.com)                    |
+//|Evanston, IL, June 27, 2023                                           |
 //+----------------------------------------------------------------------+
-#property copyright "David J. Lin"
+#property copyright "Lutendo fx"
 #property link      ""
 
 // User adjustable parameters:
@@ -50,8 +50,8 @@ bool orderlong,ordershort;
 int Slippage=3;
 int Magic=7;
 datetime ots,otl,lasttime;
-string comment="SDL";
-string SDL="Supply Demand Leveler";
+string comment="NSB";
+string SDL="NASBLUE TRADING ROBOT V1.O";
 string ciATRChannels="ATR_Channels";
 //+------------------------------------------------------------------+
 //| expert initialization function                                   |
